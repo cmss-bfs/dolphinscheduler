@@ -92,12 +92,12 @@
     },
     watch: {
       // Listening for routing changes
-      $route: {
-        deep: true,
-        handler () {
-          this.init()
-        }
-      }
+      // $route: {
+      //   deep: true,
+      //   handler () {
+      //     this.init()
+      //   }
+      // }
     },
     created () {
       this.init()

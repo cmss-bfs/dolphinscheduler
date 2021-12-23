@@ -788,6 +788,9 @@
       scaleChange (val) {
         this.graph.zoomTo(val)
       }
+    },
+    activated () {
+      this.graph.scrollToContent()
     }
   }
 </script>

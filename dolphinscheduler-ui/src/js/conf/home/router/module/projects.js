@@ -105,7 +105,8 @@ const projects = [
             component: resolve => require(['../../pages/projects/pages/definition/pages/details'], resolve),
             meta: {
               title: `${i18n.$t('Process definition details')}`,
-              refreshInSwitchedTab: config.refreshInSwitchedTab
+              refreshInSwitchedTab: config.refreshInSwitchedTab,
+              keepAlive: true
             }
           },
           {
